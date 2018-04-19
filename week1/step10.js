@@ -9,7 +9,7 @@ console.log(arr);
 console.log (typeof x , typeof y);
 console.log(typeof arr);
 if (typeof x != typeof y) {
-    console.log('We can combin different datat type in an array');
+    console.log('We can combine different data type in an array');
 }
 
 let option1 = 6/0; 
