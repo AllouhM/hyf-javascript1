@@ -1,7 +1,7 @@
 'use strict';
-var x
+let x
 console.log('the value of my variable x will be: undefined');
 console.log(x);
-var x = 6;
+x = 6;
 console.log('the value of my variable x will be:6');
 console.log(x);
