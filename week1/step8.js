@@ -21,7 +21,8 @@ if ( typeof name == typeof age) {
 else{
     console.log('Different types');
 }
-let rank = 8;
+let rank = 8; /*I added this variable just to compare between variables and get "same type"
+as I don't have two variables above with "number" data type.*/
 if ( typeof rank == typeof age) {
     console.log( 'Same type');
 }
