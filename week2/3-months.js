@@ -1,8 +1,8 @@
 'use strict';
 let daysTotal = 0;
 const months = [
-  { name: 'January', days: 31,},
-  { name: 'February', days: 28  },
+  { name: 'January', days: 31, },
+  { name: 'February', days: 28 },
   { name: 'March', days: 31 },
   { name: 'April', days: 30 },
   { name: 'May', days: 31 },
@@ -16,14 +16,14 @@ const months = [
 ];
 
 for (let i = 0; i < months.length; i++) {
-  console.log(months[i].name, 'has', months[i].days, 'days - ', 'total of days untill this month is : ' , daysTotal += months[i].days, 'days');
+  console.log(months[i].name, 'has', months[i].days, 'days - ', 'total of days untill this month is : ', daysTotal += months[i].days, 'days');
 }
-console.log('The total of days in the year is : ' + daysTotal,'days.');
-if (daysTotal<=365){
+console.log('The total of days in this year is : ' + daysTotal, 'days.');
+if (daysTotal <= 365) {
   console.log('Yep, it adds up to 365.')
 }
 else {
   console.log('Oh no! It doesn\'t add up to 365!');
-  
+
 }
 

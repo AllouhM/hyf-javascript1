@@ -52,6 +52,6 @@ for (let i = 0; i < tasks.length; i++) {
 let hoursWorked = minutesWorked / 60;
 let hourWages = 20;
 let earnings = hoursWorked * hourWages;
-console.log('Only paid hours = ', hoursWorked, 'hour');
+console.log('Only the paid hours = ', hoursWorked, 'hour');
 console.log('wages per hour = ', hourWages, '€');
 console.log('Maatrje earnings for Monday and Tuesday is:', earnings.toFixed(0), '€');
