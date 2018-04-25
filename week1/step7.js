@@ -1,4 +1,4 @@
 'use strict';
-let myString ='This is a test';
+let myString = 'This is a test';
 console.log(myString);
-console.log(myString .length);
+console.log(myString.length);
