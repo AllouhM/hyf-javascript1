@@ -1,6 +1,10 @@
-'use strict';
-function colorCar(colore) {
-    return "a " + colore + " car";
+"use strict";
+
+function colorCar(color) {
+
+    return " a " + color + " car";
 }
-let firstCar = colorCar("green");
+
+const firstCar = colorCar("green");
+
 console.log(firstCar);

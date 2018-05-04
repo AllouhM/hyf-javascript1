@@ -1,10 +1,11 @@
-'use strict';
-function vehicleType(colore, code) {
+"use strict";
+
+function vehicleType(color, code) {
     if (code === 1) {
-        console.log("it is a " + colore + " car");
+        console.log("it is a " + color + " car");
     }
     else if (code === 2) {
-        console.log("it is a " + colore + " motorbike");
+        console.log("it is a " + color + " motorbike");
     }
     else {
         console.log("unknown vehicle");
@@ -12,6 +13,9 @@ function vehicleType(colore, code) {
 }
 
 vehicleType("red", 1);
+
 vehicleType("pink", 2);
+
 vehicleType("blue", 5);
+
 vehicleType("cyan", 1);

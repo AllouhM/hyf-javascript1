@@ -1,4 +1,5 @@
-'use strict';
+"use strict";
+
 const vehicles = ["motorbike", "caravan", "bike", "car"];
 
 function vehicleType(color, code, age) {
@@ -15,6 +16,9 @@ function vehicleType(color, code, age) {
         console.log("unknown type " + color + " vehicle");
     }
 }
-vehicleType('green', 1, 1);
-vehicleType('red', 0, 2);
-vehicleType('cyan', 5, 2);
+
+vehicleType("green", 1, 1);
+
+vehicleType("red", 0, 2);
+
+vehicleType("cyan", 5, 2);
