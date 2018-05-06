@@ -4,9 +4,6 @@
 
 function advertisement(vehicles) {
 
-    //This is (for - in )loop it is very interesting you can read about it in the link below
-    //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
-
     for (let i = 0; i < vehicles.length - 1; i++) {
         adMessage += vehicles[i] + ', ';
     }

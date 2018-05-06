@@ -1,6 +1,10 @@
 "use strict";
 function printObject(candidate) {
-    for (let propertyName in candidate)
+
+    //This is (for - in )loop it is very interesting you can read about it in the link below
+    //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+
+    for (const propertyName in candidate)
         console.log(propertyName + " = " + candidate[propertyName]);
 
 }
