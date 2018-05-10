@@ -5,6 +5,6 @@
 const bar = 42;
 const result = typeof typeof bar;
 
-// will be string because the value of (bar) is "number" and the value of "number" is a string
+// will be string because the data type of (bar) is "number" and the data type of the string "number" is a string
 
 console.log(result);
